@@ -6,7 +6,7 @@ def comprobar_mayusculas(contrasena):
 	return False
 
 def comprobar_longitud(contrasena):
-	if len(contrasena) < 8:
+	if len(contrasena) < 12:
 		return False
 	else:
 		return True
